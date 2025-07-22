@@ -1,0 +1,49 @@
+HTML 
+
+web page ->
+
+static --> 
+
+Dynamic --> 
+
+CSS --> 
+        design 
+
+
+type -> 
+HTML -> CSS -> way? 
+
+1) inline 
+2) internal 
+3) external 
+
+
+Tags -> 1) empty tag   -> <hr> .... <br/> 
+        2) container tag -> <> </>
+
+CSS -> 
+        attributes 
+        property 
+
+
+        key:value
+        
+
+tag 
+
+p{
+
+}
+
+internal -> css -> 
+
+
+
+background-color 
+text-align 
+font-family 
+font-size
+border 
+border-radius
+padding 
+
