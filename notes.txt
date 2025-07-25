@@ -47,3 +47,30 @@ border
 border-radius
 padding 
 
+--------------------------------------
+
+inline 
+internal 
+external -> css -> student.css
+
+html -> link 
+
+
+css -> 
+                tag -> 
+                p{
+
+                }
+
+                class 
+                id 
+
+
+
+class -> we can use this at multiple locations 
+.p
+<div class="p">
+
+id  -> unique -> we will use this at single  / unique time 
+#p
+<div id="p"> 
