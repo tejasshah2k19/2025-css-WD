@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: azure;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            /* border: 1px solid black; */
+            width: 280px;
+            padding: 40px;
+            background-color: antiquewhite;
+            box-shadow: 5px 5px 5px#aaa, -5px 5px 5px#aaa;
+
+
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+            border: 1px solid #aaa;
+        }
+
+        .btn {
+            text-align: center;
+        }
+        
+        button{
+            padding: 5px 10px;
+            background-color:rgb(122, 231, 122); 
+            margin-bottom: 10px;
+        }
+
+        button:hover{
+            background-color:rgb(82, 233, 82); 
+         
+        }
+
+        .clr{
+            background-color: red;
+            border: none;
+        }
+        .clr:hover{
+            background-color: aqua;
+        }
+
+        .footer{
+
+        }
+        .footer a{ 
+
+        }
+        .footer a:hover{
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <div class="box">
+        <form action="login" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="userName" />
+
+            <label>Password</label>
+            <input type="password" name="password" />
+            <div  class="btn">
+                <button type="submit">Login</button>
+                <button class="clr" type="reset">Clear</button>
+            </div>
+        </form>
+        <div class="footer">
+            New User? <a href="register">Register</a>
+        </div>
+    </div>
+</body>
+
+</html>
