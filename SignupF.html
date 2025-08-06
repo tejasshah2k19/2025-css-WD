@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: antiquewhite;
+    }
+    .box{
+        border: 1px solid #aaa;
+        width: 350px;
+        padding: 40px;
+        background-color: azure;
+    }
+
+    label{
+        display: block;
+    }
+    .input{
+        width: 100%;
+        padding: 8px;
+   }
+</style>
+</head>
+
+<body>
+    <h1>Signup</h1>
+
+    <div class="box">
+        <form action="saveuser" method="post">
+
+            <label>FirstName</label>
+            <input type="text" class="input" name="firstName" placeholder="enter firstname" />
+
+            <br><br>
+
+            <label>Email</label>
+            <input type="email" class="input" name="email" placeholder="enter email" />
+            <br><br>
+
+            <label>Password</label>
+            <input type="password" class="input" name="password" />
+            <br><br>
+
+            <label>Gender</label>
+            Male<input type="radio" name="gender" value="male" />
+            Female<input type="radio" name="gender" value="female" />
+            <br><Br>
+
+            <label>Hobby</label>
+            Cricket: <input type="checkbox" name="Hobby" value="Cricket" />
+            Tennis: <input type="checkbox" name="Hobby" value="Tennis" />
+            <br><Br>
+
+            <label>D.o.b</label>
+            <input type="date" name="dob" class="input" min="2025-08-06" max="2025-08-31" />
+            <br><Br>
+
+            <label>Salary</label>
+            <input type="number" name="number" class="input" min="1" />
+            <br><Br>
+
+
+            <label>ContactNum</label>
+            <input type="tel" name="ContactNum" class="input" pattern="[6-9][0-9]{9}" />
+            <br><Br>
+
+            <label>Profile</label>
+            <input type="file" name="profile" class="input" /><Br><Br>
+
+
+            <label>City</label>
+            <select name="city" class="input">
+                <option>---Select City---</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Surat">Surat</option>
+            </select>
+            <br><br>
+
+            <label>Address</label>
+            <textarea class="input"></textarea>
+            <br><br>
+
+             
+            <input type="submit" value="Signup" />
+            <input type="reset" value="Clear" />
+
+        </form>
+    </div>
+</body>
+
+</html>
