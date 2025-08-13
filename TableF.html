@@ -9,6 +9,25 @@
     <link href="table.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+
+    <style>
+        .img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        .img2 {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        tr {
+            height: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,6 +41,7 @@
                     <th>Rank</th>
                     <th>Logo</th>
                     <th>Status</th>
+                    <th>Captain</th>
                 </tr>
 
                 <tr>
@@ -30,6 +50,7 @@
                     <td>1</td>
                     <td> <i class="fa-solid fa-globe"></i></td>
                     <td><label class="active">Active</label></td>
+                    <td><img class="img" src="sachin.jpg" /></td>
                 </tr>
 
                 <tr>
@@ -38,6 +59,7 @@
                     <td>2</td>
                     <td><i class="fa-solid fa-hockey-puck"></i></td>
                     <td>Inactive</td>
+                    <td><img class="img2" src="sachin.jpg" /></td>
                 </tr>
 
                 <tr>
@@ -46,23 +68,25 @@
                     <td>3</td>
                     <td><i class="fa-solid fa-plane-departure icon-red"></i></td>
                     <td>Active</td>
+                    <td><img class="img" src="sachin.jpg" /></td>
                 </tr>
 
                 <tr>
                     <td>Team D</td>
                     <td>City W</td>
                     <td>4</td>
-                    <td>(W)</td>
+                    <td><i class="fa-solid fa-star fa-pulse"></i></td>
                     <td>Active</td>
+                    <td><img class="img" src="sachin.jpg" /></td>
 
                 </tr>
                 <tr>
                     <td>Team E</td>
                     <td>City V</td>
                     <td>5</td>
-                    <td>(V)</td>
+                    <td><i class="fa-solid fa-star fa-spin"></i></td>
                     <td>Inactive</td>
-
+                    <td><img class="img" src="sachin.jpg" /></td>
                 </tr>
 
             </table>
